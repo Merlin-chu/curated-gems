@@ -13,4 +13,19 @@
     "best_quote_en": "\"The persistent are attached to the goal. The obstinate are attached to their ideas about how to reach it.\"",
     "best_quote_zh": "\"坚持者忠于目标，顽固者忠于实现目标的固有想法。\""
 }
+  {
+    "id": 2,
+    "title": "Write Simply",
+    "title_zh": "简单写作",
+    "source": "Paul Graham's Essays",
+    "link": "https://www.paulgraham.com/simply.html",
+    "tags": ["Writing", "Communication", "Simplicity"],
+    "tags_zh": ["写作", "沟通", "简洁"],
+    "date": "2021-03-01",
+    "summary_en": "Paul Graham advocates writing with ordinary words and simple sentences. He argues this style is easier to read, allowing readers to devote more energy to understanding ideas rather than prose, and helps more readers finish the work. It is also considerate to non-native English speakers, keeps writers honest (as simple writing can’t conceal a lack of content), and makes works more enduring. Graham’s main reason for writing simply is that complicated expressions feel clumsy to him; additionally, his writing process—fast first draft followed by days of editing (mostly cutting)—further simplifies the text. He notes that using complex language for effect is acceptable only if intentional, not accidental.",
+    "summary_zh": "保罗·格雷厄姆主张用普通词汇和简单句子进行写作。他认为这种风格更易阅读，能让读者将更多精力用于理解思想而非文字表达，且有助于更多读者读完作品。这种方式对非英语母语读者也更为体贴，能让作者保持诚实（因为简单写作无法掩盖内容的匮乏），还能让作品更具持久性。格雷厄姆坚持简单写作的主要原因是，复杂的表达在他看来显得笨拙；此外，他的写作流程——快速完成初稿后，花费数天进行编辑（主要是删减）——进一步简化了文本。他指出，仅当出于特定效果且有意为之（而非偶然）时，使用复杂语言才是可接受的。",
+    "best_quote_en": "\"The less energy they expend on your prose, the more they'll have left for your ideas.\"",
+    "best_quote_zh": "\"读者在你的文字表达上花费的精力越少，留给理解你的思想的精力就越多。\""
+}
+  
 ]
