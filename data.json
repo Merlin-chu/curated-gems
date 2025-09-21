@@ -13,7 +13,7 @@
     "best_quote_zh": "\"坚持者忠于目标，顽固者忠于实现目标的固有想法。\""
 },
   {
-    "id": 1,
+    "id": 2,
     "title": "Write Simply",
     "title_zh": "简单写作",
     "source": "Paul Graham's Essays",
@@ -27,7 +27,7 @@
     "best_quote_zh": "\"读者在你的文字表达上花费的精力越少，留给理解你的思想的精力就越多。\""
 },
   {
-    "id": 1,
+    "id": 3,
     "title": "Writes and Write-Nots",
     "title_zh": "会写者与不会写者",
     "source": "Paul Graham's Essays",
@@ -41,7 +41,7 @@
     "best_quote_zh": "\"如果你只思考不写作，那你只是自以为在思考。\""
 },
   {
-    "id": 1,
+    "id": 4,
     "title": "Writing, Briefly",
     "title_zh": "简谈写作",
     "source": "Paul Graham's Essays",
@@ -55,7 +55,7 @@
     "best_quote_zh": "\"写作不仅能传达观点，还能生成观点。\""
 },
   {
-    "id": 1,
+    "id": 5,
     "title": "Write Like You Talk",
     "title_zh": "像说话一样写作",
     "source": "Paul Graham's Essays",
@@ -69,7 +69,7 @@
     "best_quote_zh": "\"口语化语言是观点的运动服。\""
 },
     {
-    "id": 1,
+    "id": 6,
     "title": "How to Think for Yourself",
     "title_zh": "如何独立思考",
     "source": "Paul Graham's Essays",
@@ -83,7 +83,7 @@
     "best_quote_zh": "\"发现未被发掘观点的最佳之处，是在无人关注的地方。\""
 },
   {
-    "id": 1,
+    "id": 7,
     "title": "Copy What You Like",
     "title_zh": "模仿你真正喜欢的事物",
     "source": "Paul Graham's Essays",
@@ -121,7 +121,7 @@
     "best_quote_zh": "推理其目标是从一种认知类型（即系统1、习惯性、自动化或无模型认知）转向另一种认知类型（即系统2、受控、目标导向或基于模型的认知）。"
   },
   {
-    "id": 1,
+    "id": 9,
     "title": "How to Work Hard",
     "title_zh": "如何努力工作",
     "source": "Paul Graham's Essays",
@@ -135,7 +135,7 @@
     "best_quote_zh": "\"努力工作不只是把旋钮调到最大。它是一个复杂的动态系统，每一步都必须调整到最佳状态。\""
 },
   {
-    "id": 1,
+    "id": 10,
     "title": "Six Principles for Making New Things",
     "title_zh": "创造新事物的六条原则",
     "source": "Paul Graham's Essays",
