@@ -431,7 +431,7 @@ list.forEach(item => {
   itemTags.forEach(tag => {
     tagCounts[tag] = (tagCounts[tag] || 0) + 1;
   });
-});
+  
   // 添加"全部"选项
   const allText = lang === 'zh' ? '全部' : 'All';
   const tags = [allText, ...allTags];
@@ -443,11 +443,11 @@ list.forEach(item => {
     const tagValue = isAll ? 'all' : t;
     const isActive = activeTags.has(tagValue);
     // TODO: 在这里添加标签数量显示逻辑
-    return `<span class="tag ${isActive ? 'active' : ''}" data-tag="${esc(tagValue)}">
+    const count = isAll ? list.length : (tagCounts[t] || 0);
+   return `<span class="tag ${isActive ? 'active' : ''}" data-tag="${esc(tagValue)}">
   ${esc(t)} <span class="tag-count">(${count})</span>
 </span>`;
-  ${esc(t)} <span class="tag-count">(${count})</span>
-</span>`;
+    
   }).join('');
 }
 
