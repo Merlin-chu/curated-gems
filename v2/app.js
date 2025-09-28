@@ -83,7 +83,7 @@ function mountControls() {
 
     // 🔍 优化后的搜索框提示文字 - 更友好、更直观
     const placeholder = lang === 'zh'
-        ? '👋 想找什么好东西？'
+        ? '🔍 这里可以搜索...'
         : '🔍 you can search here...';
 
     controlsEl.innerHTML = `
@@ -151,28 +151,7 @@ function applyAndRender() {
     }
     
     window.__countsForCurrentQuery = counts;
-    // 统计：当前搜索条件下，各数据源可见数量
-const counts = { all: 0 };
-for (const item of raw) {
-  const summaryField = (lang === 'zh' ? item.summary_zh : item.summary_en) || '';
-  const quoteField   = (lang === 'zh' ? item.best_quote_zh : item.best_quote_en) || '';
-  const titleField   = (lang === 'zh' ? (item.title_zh || item.title) : item.title) || '';
-  const tagsArr      = item.tags || [];
-
-  const matchesQuery = !query ||
-    titleField.toLowerCase().includes(query) ||
-    summaryField.toLowerCase().includes(query) ||
-    quoteField.toLowerCase().includes(query) ||
-    tagsArr.some(tag => tag.toLowerCase().includes(query));
-
-  if (matchesQuery) {
-    counts.all += 1;
-    const s = item.source || 'unknown';
-    counts[s] = (counts[s] || 0) + 1;
-  }
-}
-
-window.__countsForCurrentQuery = counts;
+    // 筛选数据
     view = raw.filter(item => {
         // 根据语言选择对应字段
         const summaryField = lang === 'zh' ? item.summary_zh : item.summary_en;
@@ -235,7 +214,7 @@ function render(items) {
 
         // 😅 优化后的空结果提示 - 更友好、提供建议
         const emptyTexts = {
-            zh: '🤔 暂时没找到，换个词试试？或许有惊喜',
+            zh: '😅 没有找到相关内容，换个关键词试试吧， 或许会有惊喜',
             en: '😅 No relevant content found, try different keywords'
         };
 
