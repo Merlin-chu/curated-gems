@@ -151,7 +151,6 @@ function applyAndRender() {
     }
     
     window.__countsForCurrentQuery = counts;
-    // 筛选数据
     // 统计：当前搜索条件下，各数据源可见数量
 const counts = { all: 0 };
 for (const item of raw) {
